@@ -1,0 +1,21 @@
+{
+    "name": "shopex/espier",
+    "description": "A RESTful API Package for lumen",
+    "keywords": ["restful", "api", "lumen"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Bryant Yan",
+            "email": "bryant.yan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/lumen-framework": "5.2.*"
+    }
+    "autoload": {
+        "psr-4": {
+            "Shopex\\Espier\\": "src"
+        }
+    }
+}
