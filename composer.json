@@ -1,5 +1,5 @@
 {
-    "name": "shopex/espier",
+    "name": "onex/espier",
     "description": "A RESTful API Package for lumen",
     "keywords": ["restful", "api", "lumen"],
     "license": "BSD-3-Clause",
@@ -12,10 +12,10 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/lumen-framework": "5.2.*"
-    }
+    },
     "autoload": {
         "psr-4": {
-            "Shopex\\Espier\\": "src"
+            "Onex\\Espier\\": "src"
         }
     }
 }
